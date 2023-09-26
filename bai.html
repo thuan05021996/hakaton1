@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: aliceblue;
+            
+        }
+        
+        
+        header { 
+            background-image: url(/hero-bg.jpg);
+           background-attachment: fixed;  
+            background-size: cover;
+            height: 1000px;
+            
+        }
+        .navbar{
+            
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        h1,h3 {
+            font-family: "Dancing Script";
+            
+            
+        }
+        h1{
+            margin-bottom: 20px;
+            font-size: 70px;
+        }
+        h3{font-size: 50px;}
+        p{
+            margin-bottom: 20px;
+        }
+        
+        li{ 
+            list-style: none;
+            padding-left: 15px;
+            padding-top: 25px;
+        }
+        ul{
+            display:flex ;
+            margin-left: 200px;
+        }
+        .navbar button{
+            background-color: rgb(219, 181, 9);
+            border-radius: 20px;
+            height: 40px;
+            width: 200px;
+            border: none;
+            margin-top: 10px;
+            
+        }
+        .main1 {
+            text-align: left;
+            margin-top: 150px;
+            padding:20px
+        }
+        .main1 {
+            width: 600px; height: 200px;
+        }
+        
+        
+        .buton{
+            background-color:  rgb(219, 181, 9);
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            border: none;
+        }
+        .main2 ul{
+            color: aliceblue;
+            
+
+        }
+        aside{
+            background-color: rgb(37, 36, 36);
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+
+        }
+        .aside2{
+            text-align: left;
+            width: 450px;
+            margin-right: 200px;
+        }
+
+        li:hover{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <div class="navbar__mot">
+                <h3>Rikker Restaurand</h3>
+            </div>
+            <div class="navbar__hai">
+                <ul>
+                    <li >Home</li>
+                    <li>Menu</li>
+                    <li>ABOUT</li>
+                    <li>BOOK TAKE</li>
+                </ul>
+            </div>
+            <div class="navbar__ba">
+                <ul>
+                    <li><i class="fa-solid fa-user"></i></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+            </div>
+            <button>Order Online</button>
+        </nav>
+        <main>
+           <div class="main1">
+                <h1>Fast Food Restaurand</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae ratione animi autem, quae rerum eaque assumenda repellendus nemo. Commodi, ipsum explicabo sequi delectus quae perferendis laudantium distinctio voluptate labore.</p>
+                <button class="buton">Oder Now</button>
+           </div>
+           <div class="main2">
+                <ul>
+                    <li ></li>
+                    <li ></li>
+                    <li ></li>
+                </ul>
+           </div>
+        </main>
+    </header>
+    <aside>
+        <div class="aside1">
+            <img src="/about-img.png" width="400" alt="">
+        </div>
+        <div>
+            <div class="aside2">
+                <h3>we Are Feane</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae ratione animi autem, quae rerum eaque assumenda repellendus nemo. Commodi, ipsum explicabo sequi delectus quae perferendis laudantium distinctio voluptate labore.</p>
+                <button class="buton">Read More</button>
+           </div>
+        </div>
+            
+     
+    </aside>
+</body>
+</html>
